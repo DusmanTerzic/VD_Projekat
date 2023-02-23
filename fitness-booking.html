@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETFit - Yoga</title>
+    <link rel="icon" href="logo page.png">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js">
+    <link href="creative/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel = "stylesheet" href="stil.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="stil.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href = "css/styles.css">
+    <script src = "skripta.js"></script>
+</head>
+<body class="logopozadina">
+    <!-- Navigation -->
+    <nav id = "navbar" class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="logo" src="logo.png" onmouseover="hover(this);" onmouseout="unhover(this);" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-redd" id = "pocetna" href="#">Početna
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Usluge
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" id="treninzi" href="fitness-training.html">Treninzi</a>
+                <a class="dropdown-item" id="masnutr"href="#">Masaže i Nutricionista</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-redd" id = "zakazivanje" href="#">Zakazivanje treninga</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-redd" id = "acc" href="#">Moj Nalog </a>
+             </li>
+              
+            <li class="nav-item">
+              <a class="nav-link text-redd" id = "about" href="#">O nama</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</br>
+</br>
+</br>
+    <div class = "row bg-black" id="bc">
+      <nav aria-label="breadcrumb bg-black">
+        <ol class="breadcrumb bg-black" id = "bcrumb">
+          <li class="breadcrumb-item"><a href="fitness-home.html" class ="text-redd">&nbsp; Početna</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Zakaži trening</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="row" style="text-align: center;">
+        <div class="col-sm-6">
+          <div class="btn-group btn-block">
+            <button type="button" class="btn btn-danger dropdown-toggle bg-black text-redd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Izaberite trening:
+            </button>
+            <div class="dropdown-menu btn-block" style="text-align: center;">
+              <button class="dropdown-item text-redd drop" id ="yogach">Yoga
+              <button class="dropdown-item text-redd drop" id ="pilatch">Pilates
+              <button class="dropdown-item text-redd drop" id ="corech">Core
+              <button class="dropdown-item text-redd drop" id ="cardioch">Cardio
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="btn-group btn-block " >
+          <button type="button" class="btn btn-danger dropdown-toggle bg-black text-redd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sortiranje:
+          </button>
+          <div class="dropdown-menu btn-block" style="text-align: center;">
+            <button class="dropdown-item text-redd drop namesort">Po imenu
+            <button class="dropdown-item text-redd drop weightsort">Po tezini
+            <button class="dropdown-item text-redd drop gradesort">Po ocjeni
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp;
+    <div class = "row" id="namesorted" style="text-align: center;">
+        <div class="col-sm-4 text-red verdana">
+            <div class = "yogash1"><img class="img-fluid rounded-corners" src="hatha 1.jpg" id="hayo" alt="" style="display: inline-block"><center><a href="week-hatha.html">Hatha Yoga</a></center></div>
+            <div class = "pilatsh1"><img class="img-fluid rounded-corners" src="classic 1.jpg" id="clpil" alt="" style="display: inline-block"><center><a href="week-classical.html">Klasicni pilates</a></center></div>
+            <div class = "kardiosh1"><img class="img-fluid rounded-corners" src="boxing 1.jpg" id="cardbo" alt="" style="display: inline-block"><center><a href="week-cardio-box.html">Kardio boks</a></center></div>
+            <div class = "coresh1"><img class="img-fluid rounded-corners" src="core 1.jpg" id="co"alt="" style="display: inline-block"><center><a href="week-core.html">Core</a></center></div>
+        </div>
+        <div class="col-sm-4 text-red verdana" id>
+          <div class = "yogash1"><img class="img-fluid rounded-corners" src="power 1.jpg" id="poyo" alt="" style="display: inline-block"><center><a href="week-power.html">Power Yoga</a></center></div>
+          <div class = "pilatsh1"><img class="img-fluid rounded-corners" src="reformer 1.jpg" id = "repil"alt="" style="display: inline-block"><center><a href="week-reformer.html">Reformer pilates</a></center></div>
+          <div class = "kardiosh1"><img class="img-fluid rounded-corners" src="hiit 1.jpg" id="hiit"alt="" style="display: inline-block"><center><a href="week-hiit.html">HIIT</a></center></div>  
+          <div class = "coresh1"><img class="img-fluid rounded-corners" src="light core 1.jpg" id = "lico" alt="" style="display: inline-block"><center><a href="week-light.html">Light Core</a></center></div>
+        </div>
+        <div class="col-sm-4 text-red verdana">
+          <div class = "yogash1"><img class="img-fluid rounded-corners" src="yin 1.jpg" id="yinyo"alt="" style="display: inline-block"><center><a href="week-yin.html">Yin Yoga</a></center></div>
+          <div class = "pilatsh1"><img class="img-fluid rounded-corners" src="stott 1.jpg" id="stopil"alt="" style="display: inline-block"><center><a href="week-stott.html">Stot pilates</a></center></div>  
+          <div class = "kardiosh1"><img class="img-fluid rounded-corners" src="zumba 1.jpg" id="zu"alt="" style="display: inline-block"><center><a href="week-zumba.html">Zumba</a></center></div>
+            <div class = "coresh1"><img class="img-fluid rounded-corners" src="power core 1.jpg" id="poco" alt=""style="display: inline-block"><center><a href="week-powerc.html">Power Core</a></center></div>
+        </div>
+    </div>
+    <div class = "row" id="weightsorted" style="text-align: center;">
+      <div class="col-sm-4 text-red verdana">
+          <div class = "yogash2"><img class="img-fluid rounded-corners" src="yin 1.jpg" id="yinyo2"alt="" style="display: inline-block"><center><a href="week-yin.html">Yin Yoga</a></center></div>
+          <div class = "pilatsh2"><img class="img-fluid rounded-corners" src="stott 1.jpg" id="stopil2"alt="" style="display: inline-block"><center><a href="week-stott.html">Stot pilates</a></center></div>  
+          <div class = "kardiosh2"><img class="img-fluid rounded-corners" src="hiit 1.jpg" id="hiit2"alt="" style="display: inline-block"><center><a href="week-hiit.html">HIIT</a></center></div>  
+          <div class = "coresh2"><img class="img-fluid rounded-corners" src="power core 1.jpg" id="poco2" alt=""style="display: inline-block"><center><a href="week-powerc.html">Power Core</a></center></div>
+      </div>
+      <div class="col-sm-4 text-red verdana" id>
+        <div class = "yogash2"><img class="img-fluid rounded-corners" src="power 1.jpg" id="poyo2" alt="" style="display: inline-block"><center><a href="week-power.html">Power Yoga</a></center></div>
+        <div class = "pilatsh2"><img class="img-fluid rounded-corners" src="reformer 1.jpg" id = "repil2"alt="" style="display: inline-block"><center><a href="week-reformer.html">Reformer pilates</a></center></div>
+        <div class = "kardiosh2"><img class="img-fluid rounded-corners" src="boxing 1.jpg" id="cardbo2" alt="" style="display: inline-block"><center><a href="week-cardio-box.html">Kardio boks</a></center></div>
+        <div class = "coresh2"><img class="img-fluid rounded-corners" src="core 1.jpg" id="co2"alt="" style="display: inline-block"><center><a href="week-core.html">Core</a></center></div>
+      </div>
+      <div class="col-sm-4 text-red verdana">
+        <div class = "yogash2"><img class="img-fluid rounded-corners" src="hatha 1.jpg" id="hayo2" alt="" style="display: inline-block"><center><a href="week-hatha.html">Hatha Yoga</a></center></div>
+        <div class = "pilatsh2"><img class="img-fluid rounded-corners" src="classic 1.jpg" id="clpil2" alt="" style="display: inline-block"><center><a href="week-classical.html">Klasicni pilates</a></center></div>
+        <div class = "kardiosh2"><img class="img-fluid rounded-corners" src="zumba 1.jpg" id="zu2"alt="" style="display: inline-block"><center><a href="week-zumba.html">Zumba</a></center></div>
+        <div class = "coresh2"><img class="img-fluid rounded-corners" src="light core 1.jpg" id = "lico2" alt="" style="display: inline-block"><center><a href="week-light.html">Light Core</a></center></div>
+      </div>
+    </div>
+    <div class = "row" id="gradesorted" style="text-align: center;">
+      <div class="col-sm-4 text-red verdana">
+        <div class = "yogash3"><img class="img-fluid rounded-corners" src="power 1.jpg" id="poyo3" alt="" style="display: inline-block"><center><a href="week-power.html">Power Yoga</a></center></div>
+          <div class = "pilatsh3"><img class="img-fluid rounded-corners" src="classic 1.jpg" id="clpil3" alt="" style="display: inline-block"><center><a href="week-classical.html">Klasicni pilates</a></center></div>
+          <div class = "kardiosh3"><img class="img-fluid rounded-corners" src="zumba 1.jpg" id="zu3"alt="" style="display: inline-block"><center><a href="week-zumba.html">Zumba</a></center></div>
+          <div class = "coresh3"><img class="img-fluid rounded-corners" src="core 1.jpg" id="co3"alt="" style="display: inline-block"><center><a href="week-core.html">Core</a></center></div>
+      </div>
+      <div class="col-sm-4 text-red verdana" id>
+        <div class = "yogash3"><img class="img-fluid rounded-corners" src="yin 1.jpg" id="yinyo3"alt="" style="display: inline-block"><center><a href="week-yin.html">Yin Yoga</a></center></div>
+        <div class = "pilatsh3"><img class="img-fluid rounded-corners" src="stott 1.jpg" id="stopil3"alt="" style="display: inline-block"><center><a href="week-stott.html">Stot pilates</a></center></div>  
+        <div class = "kardiosh3"><img class="img-fluid rounded-corners" src="hiit 1.jpg" id="hiit3"alt="" style="display: inline-block"><center><a href="week-hiit.html">HIIT</a></center></div>  
+        <div class = "coresh3"><img class="img-fluid rounded-corners" src="light core 1.jpg" id = "lico3" alt="" style="display: inline-block"><center><a href="week-light.html">Light Core</a></center></div>
+      </div>
+      <div class="col-sm-4 text-red verdana">
+        <div class = "yogash3"><img class="img-fluid rounded-corners" src="hatha 1.jpg" id="hayo3" alt="" style="display: inline-block"><center><a href="week-hatha.html">Hatha Yoga</a></center></div>
+        <div class = "pilatsh3"><img class="img-fluid rounded-corners" src="reformer 1.jpg" id = "repil3"alt="" style="display: inline-block"><center><a href="week-reformer.html">Reformer pilates</a></center></div>
+        <div class = "kardiosh3"><img class="img-fluid rounded-corners" src="boxing 1.jpg" id="cardbo3" alt="" style="display: inline-block"><center><a href="week-cardio-box.html">Kardio boks</a></center></div>
+        <div class = "coresh3"><img class="img-fluid rounded-corners" src="power core 1.jpg" id="poco3" alt=""style="display: inline-block"><center><a href="week-powerc.html">Power Core</a></center></div>
+      </div>
+    </div>
+    <div class="row"></div>
+    <footer class="navbar-custom py-4">
+        <div class="container">
+            <div class="small text-center text-white-50 font-italic">
+                Copyright © 2020, Andrija Rakojević, Dušan Terzić, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</body>
+</html>

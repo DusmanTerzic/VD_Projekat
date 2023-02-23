@@ -1,0 +1,210 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 720px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-redd{
+    color:#ce0000;
+}
+.text-red{
+    color:#ce0000;
+}
+
+.text-redd:hover{
+    color:#8c0002;
+}
+.text-darkred{
+    color:#b50003;
+}
+.navbar-custom .navbar-text { 
+    color:darkred; 
+}
+.navbar-custom { 
+    background-color:black; 
+} 
+#navbar{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight:bold;
+}
+
+.bg-black{
+    background-color: black;
+}
+.logo{
+    width: 35%;
+    height: 35%;
+}
+
+.logo:hover{
+    width: 35%;
+    height: 35%;
+}
+
+.dropdown-menu {
+    color:red !important;
+    background-color: black !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.dropdown-item{
+    color:red !important;
+}
+.nav-link{
+    color: red !important;
+}
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.75rem;
+  }
+  
+  .login,
+  .image {
+    min-height: 100vh;
+  }
+  
+  .bg-image {
+    background-image: url('login.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
+    border-radius: 2rem;
+  }
+  
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    cursor: text;
+    /* Match the input under the label */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+  
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Fallback for Edge
+  -------------------------------------------------- */
+  
+  @supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: #777;
+    }
+  }
+
+  #logologin {
+      margin-top: 2%;
+      height: 10%;
+  }
+
+  #loginbg{
+    background-color:rgb(32, 53, 53) !important;
+    color: red !important;
+  }
+
+.btn-colour-1 {
+  /* let's darken #004E64 a bit for hover effect */
+  background:black;
+  color: red;
+  border-color: #003D4F;
+}
+.btn-colour-1:hover{
+    color: darkred;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color:red!important;
+    color: black !important;
+  }
+  
+  .custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px black, 0 0 0 0.2rem darkslategray
+  }
+  .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px black, 0 0 0 0.2rem rgba(0, 0, 0, 0.25)
+  }
+  .custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
+    background-color: black; 
+  }
+  .small{
+      color: red !important;
+  }

@@ -1,0 +1,531 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 720px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-redd{
+    color:#ce0000;
+}
+.text-red{
+    color:#ce0000;
+}
+
+.text-redd:hover{
+    color:#8c0002;
+}
+.text-darkred{
+    color:#b50003;
+}
+.navbar-custom .navbar-text { 
+    color:darkred; 
+}
+.navbar-custom { 
+    background-color:black; 
+} 
+#navbar{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight:bold;
+}
+
+
+.bg-black{
+    background-color: black;
+}
+.logo{
+    width: 35%;
+    height: 35%;
+}
+
+.logo:hover{
+    width: 35%;
+    height: 35%;
+}
+
+.dropdown-menu {
+    color:red !important;
+    background-color: black !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.dropdown-item{
+    color:red !important;
+}
+.nav-link{
+    color: red !important;
+}
+.nav-link:hover{
+  color:darkred !important;
+}
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 40%;  /* The width is the width of the web page */
+ }
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.75rem;
+  }
+  
+  .login,
+  .image {
+    min-height: 100vh;
+  }
+  
+  .bg-image {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url('login.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
+    border-radius: 2rem;
+  }
+  
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    cursor: text;
+    /* Match the input under the label */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+  
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Fallback for Edge
+  -------------------------------------------------- */
+  
+  @supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: #777;
+    }
+  }
+
+  #logologin {
+      margin-top: 2%;
+      height: 10%;
+  }
+  #panelpanel{
+    background-color: #b50003 !important;
+
+  }
+  #loginbg{
+
+    color: red !important;
+  }
+
+.btn-colour-1 {
+  /* let's darken #004E64 a bit for hover effect */
+  background:black;
+  color: red;
+  border-color: #003D4F;
+}
+.btn-colour-1:hover{
+    color: darkred;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color:red!important;
+    color: black !important;
+  }
+  
+  .custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px black, 0 0 0 0.2rem darkslategray
+  }
+  .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px black, 0 0 0 0.2rem rgba(0, 0, 0, 0.25)
+  }
+  .custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
+    background-color: black; 
+  }
+  .small{
+      color: red !important;
+  }
+
+  .zakazi{
+    background-color: #ce0000;
+}
+
+.zakazi:hover{
+    background-color: #8c0002;
+}
+.logopozadina{
+    background-color: black !important;
+    background-image: url('logo large.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.visina{
+    height:1000px;
+}
+.verdana{
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.rounded-corners {
+    border-radius: 30px;
+  }
+
+/* yoga */
+
+.gore2{
+    margin-top: 500px;
+}
+.gore{
+    margin-top: 700px;
+}
+.yoga{
+    background-image:linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url('yoga bg.jpg'); 
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.mapa{
+  height: 500px;
+}
+.map{
+  margin-left:5%;
+  margin-right:5%;
+}
+
+
+#bc{
+  color:red !important;
+}
+.breadcrumb{
+  background-blend-mode: screen;
+  background-color: black !important;
+}
+
+.breadcrumb-item.active{
+  color: red !important;
+}
+
+.profile{
+  border-radius: 50%;
+}
+
+/* comments */
+.bdge {
+  height: 21px;
+  background-color: orange;
+  color: #fff;
+  font-size: 11px;
+  padding: 8px;
+  border-radius: 4px;
+  line-height: 3px
+}
+
+.comments {
+  text-decoration: underline;
+  text-underline-position: under;
+  cursor: pointer
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin-top: 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block
+}
+
+.hit-voting:hover {
+  color: blue
+}
+
+.hit-voting {
+  cursor: pointer
+}
+
+.servicedrop {
+  transition-delay: 1s
+}
+
+.action-collapse {
+  cursor: pointer
+}
+                                  
+/* iframe responisve */
+
+.iframe-container{
+position: relative;
+width: 100%;
+padding-bottom: 56.25%; 
+height: 0;
+}
+.iframe-container iframe{
+position: absolute;
+top:0;
+left: 0;
+width: 70%;
+height: 70%;
+}
+
+/* rating */
+
+.rating { 
+border: none;
+float: left;
+}
+
+.rating input { display: none; } 
+.rating label:before { 
+margin: 5px;
+font-size: 1.25em;
+font-family: FontAwesome;
+display: inline-block;
+content: "\f005";
+}
+
+.rating .half:before { 
+content: "\f089";
+position: absolute;
+}
+
+.rating label { 
+color: #495057; 
+float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) label:hover, /* hover current star */
+.rating:not(:checked) label:hover ~ label { color: #ce0000;  } /* hover previous stars in list */
+
+.rating input:checked + label:hover, /* hover current star when changing rating */
+.rating input:checked ~ label:hover,
+.rating label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating input:checked ~ label:hover ~ label { color: #8c0002;  } 
+
+/* zakazi */
+
+.formazakazi label{
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+#nutr{
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("veggies.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  
+}
+
+#mas{
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("massage.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 3%;
+}
+
+.error{
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+.tablebox{
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table box.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablehatha{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table hatha.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tableyin{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table yin.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablepower{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table power.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablezumba{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table zumba.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablehiit{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table hiit.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tableklasicni{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table classic.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablestot{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table stot.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablereformer{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table reformer.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tablepowerc{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table powerc.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tablecore{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table core.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tablelight{
+  
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url("table light.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dropdown-item:active{
+  background-color: rgb(250, 127, 127);
+}
+
+/* cardio */
+.cardio{
+  background-image:linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url('cardio bg.jpg'); 
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.core{
+  background-image:linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url('core bg.jpg'); 
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+/*pilates*/
+
+.pilates{
+  background-image:linear-gradient(to bottom, rgba(255, 0, 0, 0.095), rgb(0, 0, 0)), url('pilates bg.jpg'); 
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
